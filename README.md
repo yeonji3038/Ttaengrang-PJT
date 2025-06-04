@@ -1,12 +1,12 @@
 # 💰 땡그랑 (초등 경제 교육 서비스)
 
-[<img src="https://lab.ssafy.com/s12-webmobile4-sub1/S12P11D107/-/wikis/uploads/ba9b25834b6a7cf148924e4a0a34d6c2/%EB%95%A1%EA%B7%B8%EB%9E%91_%EC%86%8C%EA%B0%9C.png">](https://youtu.be/ZU994x_80P4)
+[<img src="./docs/image/땡그랑 소개.png">](https://youtu.be/ZU994x_80P4)
 
 ### 👆 위 이미지 클릭하면 `앱 소개 영상` 감상 가능합니다 👆
 
 <br/>
 
-# 목차
+## 목차
 
 1. [**개요**](#✨-개요)
 1. [**주요 기능**](#-주요-기능)
@@ -20,7 +20,7 @@
 
 <div id="1"></div>
 
-# ✨ 개요
+## ✨ 개요
 
 #### 서비스명 : 땡그랑 ( 똑똑한 경제 학습 )
 
@@ -28,26 +28,77 @@
 
 #### 프로젝트 기간 : 2025.01.06 ~ 2025.02.21
 
+## ✨ 프로젝트 소개
+초등학교 교사 대상 **설문조사**를 통해,  
+**경제 교육을 운영하는 데 있어 반복되는 수작업과 업무 부담**이 크다는 문제를 확인했습니다.
+
+- 가상월급 수기 작성
+- 소비·저축 내역 정리
+- 체계 없는 활동 관리…
+
+이러한 현실적인 어려움을 해결하고자,  
+**학생은 재미있게 경제 활동을 체험하고,**  
+**교사는 효율적으로 수업을 운영할 수 있는 앱**을 기획했습니다.
+
+**📱 앱 기반 경제 시스템 + AI 피드백 + 소비 성향 분석 기능**을 통해  
+아이들의 **경제적 사고력**을 키우고,  
+교사의 **업무 부담을 덜어주는 스마트 교육 솔루션**을 제안합니다.
+
+> 🖥️ 관련 시뮬레이션 영상 보기  
+https://www.youtube.com/watch?v=8hMvV-DCEGs
+
+> 📋 설문조사 보러가기
+https://docs.google.com/forms/d/e/1FAIpQLSf5vMFO_IOTUT6wK1CLP8ovAmwIx8pirnQvcQQzFWcYqllL6g/viewform
+
 <br/>
 
 <div id="2"></div>
 
-# ✨ 주요 기능
+## ✨ 기획 배경
+![alt text](./docs/image/1.경제교육관심.png)
 
--   서비스 설명 :
--   주요 기능 :
-    -   기능1
-    -   기능2
-    -   기능3
-    -   기능4
+![alt text](./docs/image/2.유퀴즈.png)
+
+![alt text](./docs/image/3.선생님의견.png)
+
+![alt text](./docs/image/4.유사서비스비교.png)
+
+![alt text](./docs/image/5.어플에필요한기능의견.png)
+
+![alt text](./docs/image/6.태블릿교육.png)
+
+> 서비스 목표
+![alt text](./docs/image/7.서비스목표.png)
+
+## ✨ 주요 기능
+> **학습 효과 & 편의성**을 중점으로 기능을 구현하였습니다.
+
+### 👧 학습 효과
+1️⃣ **[소득 명세서] 직업 & 세금에 대한 이해**
+![alt text](./docs/image/주요기능-1.소득명세서.gif)
+
+2️⃣ **[아이템 거래] 소비 습관 형성**
+![alt text](./docs/image/주요기능-2.아이템판매.png)
+
+3️⃣ **[주식거래 & 뉴스] 현실감 있는 투자 경험**
+![alt text](./docs/image/주요기능-3.주식거래&뉴스.gif)
+
+4️⃣ **[예금, 적금 상품 가입] 올바른 저축 습관 형성**
+![alt text](./docs/image/주요기능-4.적금가입.gif)
+
+
+### 👩‍🏫 편의성 
+1️⃣ [학생 복수 등록] 등록 절차 간편화
+![alt text](./docs/image/주요기능-5.학생복수등록.gif)
+
+2️⃣ [주간 리포트] 한 눈에 보는 소비 습관
+![alt text](./docs/image/주요기능-6.주간리포트.png)
+3️⃣ [투표] 적극적 참여로 흥미 유발 
+![alt text](./docs/image/주요기능-7.투표.png)
 
 <br/>
 
 <div id="3"></div>
-
-# 👩‍🏫 땡그랑 서비스 화면 (교사)
-
-# 👧 땡그랑 서비스 화면 (학생)
 
 <br/>
 
@@ -115,21 +166,41 @@
 
 ## 기술적 특징
 
-### K-Means Clustering 모델 활용
+### ✨ AI 기반 소비 유형 분석 기능
+- 학생들의 가상 경제 데이터를 기반으로, AI가 소비 습관을 분석하고 유형(소비형 / 저축형 / 투자형)으로 분류합니다.
 
--   비 지도 학습 -> 지도학습 순서로 진행
--   비 지도 학습을 통해 비슷한 유형끼리 군집화하여 소비 유형 분류 (소비형, 저축형, 투자형)
--   지도학습을 추가로 진행하여 예측 데이터를 제공하고, 분류가 얼마나 잘 이루어지는지 테스트 98.89% 정확도 결과.
+> 🚀 분석 흐름 요약  
 
-![K-Means](https://lab.ssafy.com/s12-webmobile4-sub1/S12P11D107/-/wikis/uploads/6571a2dbcae3ba6772cde58eab2636c8/Ai%ED%99%9C%EC%9A%A9.gif)
+**1. 데이터 생성**
+- 학생별 총소득, 소비, 저축, 투자, 급여, 인센티브 등 가상 데이터 생성
+
+**2. 전처리 및 비율 계산**
+- 소비/저축/투자 비율 계산 후 정규화
+
+**3. 비지도 학습 (클러스터링)**
+- K-Means를 이용해 소비 유형 분류
+- Silhouette Score로 최적 모델 선정
+
+**4. 지도 학습 (분류 모델 학습)**
+- 클러스터 결과를 기반으로 Random Forest 분류 모델 학습
+- SMOTE 적용으로 데이터 불균형 보정
+- 약 98.89% 정확도 달성
+
+**5. 모델 저장 및 재사용**
+- 학습된 모델과 정규화 도구는 pickle/joblib으로 저장해 서비스에서 활용 가능
+
+> 📦 주요 라이브러리  
+`sklearn`, `imblearn`, `pandas`, `numpy`, `pickle`, `joblib`
+
+![K-Means](./docs/image/Ai활용.gif)
 
 ### Open Ai 프롬프팅 전략
+![alt text](./docs/image/주요기능-8.뉴스정보생성.gif)
 
--   설명
 
 ## 서비스 아키텍처
 
-![서비스 아키텍처](https://lab.ssafy.com/s12-webmobile4-sub1/S12P11D107/-/wikis/uploads/3de1435069605ca93e51606b7cb52b53/%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.png)
+![서비스 아키텍처](./docs/image/시스템%20아키텍쳐.png)
 
 <br/>
 
@@ -139,21 +210,20 @@
 
 ## 화면 설계서
 
--   피그마 정리해서 캡쳐
+![화면설계서](./docs/image/화면설계서.gif)
 
 ## API 명세서
 
--   노션 정리해서 캡쳐
+![API 명세서](./docs/image/api명세서.mp4.gif)
 
 ## ERD
 
-![ERD](https://lab.ssafy.com/s12-webmobile4-sub1/S12P11D107/-/wikis/uploads/d60756c13f70c006641e93fd4481c3d3/ERD.png)
+![ERD](./docs/image/ERD.png)
 
 ## Git
 
--   소스트리에서 브랜치 한눈에 보이게 캡쳐
-
-![Git](https://lab.ssafy.com/s12-webmobile4-sub1/S12P11D107/-/wikis/uploads/20fbc796f59328d983f7a28983497c61/%EA%B9%83%ED%94%8C%EB%A1%9C%EC%9A%B0.gif)
+-   아래는 Sourcetree에서 확인한 브랜치 내역입니다.
+![Git](./docs/image/git_flow.gif)
 
 <br/>
 
@@ -161,12 +231,12 @@
 
 # 👨‍👩‍👧‍👦 개발 멤버 및 역할분담
 
-|                                                          **[정유진](https://github.com/breadbirds)**                                                          |                                                          **[박진현](https://github.com/breadbirds)**                                                          |                                                           **[서미지](https://github.com/mijisuh)**                                                            |                                                          **[이사랑](https://github.com/frame5562)**                                                           |                                                          **[임정인](https://github.com/breadbirds)**                                                          |                                                          **[최연지](https://github.com/yeonji3038)**                                                          |
+|                                                          **[정유진](https://github.com/breadbirds)**                                                          |                                                          **[박진현](https://github.com/iamjinhyeon)**                                                          |                                                           **[서미지](https://github.com/itsanisland)**                                                            |                                                          **[이사랑](https://github.com/frame5562)**                                                           |                                                          **[임정인](https://github.com/harperim)**                                                          |                                                          **[최연지](https://github.com/yeonji3038)**                                                          |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://lab.ssafy.com/s12-webmobile4-sub1/S12P11D107/-/wikis/uploads/8829ad7f56dc9eeef9e2cf06c4568b47/%EC%A0%95%EC%9C%A0%EC%A7%84.png" width="800"> | <img src="https://lab.ssafy.com/s12-webmobile4-sub1/S12P11D107/-/wikis/uploads/88e2e5d29f1b1adddb708939b3c1f530/%EB%B0%95%EC%A7%84%ED%98%84.png" width="800"> | <img src="https://lab.ssafy.com/s12-webmobile4-sub1/S12P11D107/-/wikis/uploads/6ed642814fe8fac68be256cc04546637/%EC%84%9C%EB%AF%B8%EC%A7%80.png" width="800"> | <img src="https://lab.ssafy.com/s12-webmobile4-sub1/S12P11D107/-/wikis/uploads/85cf40b154dee2c6f104afbe9d27463d/%EC%9D%B4%EC%82%AC%EB%9E%91.png" width="800"> | <img src="https://lab.ssafy.com/s12-webmobile4-sub1/S12P11D107/-/wikis/uploads/095b84c1b19aaa770f3fc73370d01599/%EC%9E%84%EC%A0%95%EC%9D%B8.png" width="800"> | <img src="https://lab.ssafy.com/s12-webmobile4-sub1/S12P11D107/-/wikis/uploads/9fd987c3d9488c1734b0cb3486114922/%EC%B5%9C%EC%97%B0%EC%A7%80.png" width="800"> |
+| <img src="./docs/image/정유진.png"> | <img src="./docs/image/박진현.png"> | <img src="./docs/image/서미지.png"> | <img src="./docs/image/이사랑.png"> | <img src="./docs/image/임정인.png"> | <img src="./docs/image/최연지.png"> |
 |                                                                       Leader & Frontend                                                                       |                                                                           Frontend                                                                            |                                                                        Backend & Infra                                                                        |                                                                           Frontend                                                                            |                                                                            Backend                                                                            |                                                                            Backend                                                                            |
 
-![역할분담](https://lab.ssafy.com/s12-webmobile4-sub1/S12P11D107/-/wikis/uploads/12bf8272476b4ab2d9228b808e5561d9/%ED%8C%80%EC%9B%90%EC%97%AD%ED%95%A0.png)
+![역할분담](./docs/image/팀원역할.png)
 
 <br/>
 
@@ -176,6 +246,6 @@
 
 -   [포팅메뉴얼](https://lab.ssafy.com/s12-webmobile4-sub1/S12P11D107/-/wikis/%ED%8F%AC%ED%8C%85-%EB%A9%94%EB%89%B4%EC%96%BC)
 -   [Git](https://lab.ssafy.com/s12-webmobile4-sub1/S12P11D107/-/wikis/Git)
--   [화면 설계서]()
--   [ERD]()
--   [API 명세서]()
+-   [화면 설계서](https://www.figma.com/design/16E9xxHkVz0Iray1mDCXxy/%EB%95%A1%EA%B7%B8%EB%9E%91-%F0%9F%92%B0?node-id=629-18478&p=f&t=FvhdWhJP0l99fRVd-0)
+-   [ERD](https://www.erdcloud.com/d/feQGbFmFS8WJpQPAg)
+-   [API 명세서](https://www.notion.so/1a5e605dad4d813ca426d0b46c18993e?v=1a5e605dad4d81deafdc000c5e0ee43e)
