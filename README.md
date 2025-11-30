@@ -236,7 +236,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSf5vMFO_IOTUT6wK1CLP8ovAmwIx8pirnQvcQQz
 | <img src="./docs/image/정유진.png"> | <img src="./docs/image/박진현.png"> | <img src="./docs/image/서미지.png"> | <img src="./docs/image/이사랑.png"> | <img src="./docs/image/임정인.png"> | <img src="./docs/image/최연지.png"> |
 |                                                                       Leader & Frontend                                                                       |                                                                           Frontend                                                                            |                                                                        Backend & Infra                                                                        |                                                                           Frontend                                                                            |                                                                            Backend                                                                            |                                                                            Backend                                                                            |
 
-![역할분담](./docs/image/팀원역할.png)
+
 
 <br/>
 
